@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mercado_facil_test
+  jpa:
+    show-sql: false
+  flyway:
+    enabled: true
+logging:
+  level:
+    org.flywaydb: INFO
